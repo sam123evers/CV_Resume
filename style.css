@@ -1,5 +1,5 @@
 * {
-	font-family: Helvetica;
+	font-family: 'Lato', Helvetica;
 }
 .main-container {
 	display: flex;
@@ -37,6 +37,7 @@
 
 .navbar p {
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .navbar p:nth-child(3) {
@@ -141,3 +142,9 @@ img {
 #github {
 	text-decoration: none
 }
+
+#github:visited {
+	color: black;
+}
+
+				/*pbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdqpbdq*/

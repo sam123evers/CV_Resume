@@ -79,3 +79,11 @@ expressCTX.stroke();
 expressCTX.font = '48px Helvetica'
 expressCTX.fillText('60%', 62.5, 115)
 
+//bdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbd
+
+var aboutMe = document.getElementById('stats-bio')
+
+function eyeCatcher() {
+	
+}
+
