@@ -21,12 +21,12 @@ var reactCTX = reactCanvas.getContext('2d')
 reactCTX.lineWidth = 20;
 reactCTX.strokeStyle = '#102B3F';
 reactCTX.beginPath();
-reactCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*200, false);
+reactCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*180, false);
 reactCTX.stroke();
 
 reactCTX.strokeStyle = "grey";
 reactCTX.beginPath()
-reactCTX.arc(100, 100, 80, (Math.PI/180)*200, (Math.PI/180)*270, false);
+reactCTX.arc(100, 100, 80, (Math.PI/180)*180, (Math.PI/180)*270, false);
 reactCTX.stroke()
 reactCTX.font = '48px Helvetica';
 reactCTX.fillText('75%', 62.5, 115);
@@ -52,12 +52,12 @@ var backboneCTX = backboneCanvas.getContext('2d')
 backboneCTX.lineWidth = 20
 backboneCTX.strokeStyle = '#102B3F';
 backboneCTX.beginPath();
-backboneCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*170, false)
+backboneCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*160, false)
 backboneCTX.stroke()
 
 backboneCTX.strokeStyle = "grey";
 backboneCTX.beginPath();
-backboneCTX.arc(100, 100, 80, (Math.PI/180)*170, (Math.PI/180)*270, false)
+backboneCTX.arc(100, 100, 80, (Math.PI/180)*160, (Math.PI/180)*270, false)
 backboneCTX.stroke()
 
 backboneCTX.font = '48px Helvetica'
@@ -69,12 +69,12 @@ var expressCTX = expressCanvas.getContext('2d')
 expressCTX.lineWidth = 20
 expressCTX.strokeStyle = '#102B3F';
 expressCTX.beginPath();
-expressCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*130, false);
+expressCTX.arc(100, 100, 80, (Math.PI/180)*270, (Math.PI/180)*120, false);
 expressCTX.stroke()
 
 expressCTX.strokeStyle = 'grey';
 expressCTX.beginPath();
-expressCTX.arc(100, 100, 80, (Math.PI/180)*130, (Math.PI/180)*270, false);
+expressCTX.arc(100, 100, 80, (Math.PI/180)*120, (Math.PI/180)*270, false);
 expressCTX.stroke();
 expressCTX.font = '48px Helvetica'
 expressCTX.fillText('60%', 62.5, 115)
