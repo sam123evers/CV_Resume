@@ -26,15 +26,33 @@
 
 .navbar{
 	display: flex;
+	justify-content: space-evenly;
 	background-color: #102B3F;
 	color: white;
 	width: 70%;
 	border-radius: 15px; 
 	margin-top: 2%;
+
 }
 
 .navbar p {
-	margin-left: 10%;
+	font-size: 20px;
+}
+
+.navbar p:nth-child(3) {
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	padding: 0 6%;
+}
+
+#about {
+	border-right: 2px solid white;
+	padding: 0 3%;
+}
+
+#contact {
+	border-left: 2px solid white;
+	padding: 0 3%;
 }
 
 .stats-image-bio-main-container{
@@ -53,11 +71,20 @@
 .image-bio-container{
 	display: flex;
 	margin: 5%;
+	border-top: 3px solid #376996;
+	border-bottom: 3px solid #376996;
+}
+
+img {
+	transform: rotate(90deg);
+	width: 200px;
+	height: 200px;
+	margin: 2%;
 }
 
 #bio {
-	/*border: 1px solid red;*/
 	width: 60%;
+	padding: 5% 5%;
 }
 
 .skills-container{
@@ -70,7 +97,6 @@
 .skills-container div {
 	text-align: center;
 	margin: 0 3%;
-	/*border: 1px solid red;*/
 }
 
 .lower-container {
@@ -78,9 +104,11 @@
 	flex-direction: column;
 	background-color: #102B3F;
 	color: white;
+	margin-top: 2%;
 }
 
 .lower-container h4 {
+	font-size: 30px;
 	background-color: #1F487E;
 	padding: 1%;
 	border-radius: 8px;
@@ -92,9 +120,24 @@
 	margin: 0 auto;
 }
 
+.a-line {
+	border: 1px solid #6290C8;
+	display: inline-block;
+	width: 70%;
+	margin-left: 10%;
+}
 
+.lower-container h3,p {
+	display: inline-block;
+}
 
-img{
-	width: 150px;
-	height: 250px;
+.lower-container p {
+	background-color: #1F487E;
+	padding: .5%;
+	border-radius: 8px;
+	margin-left: 3%;
+}
+
+#github {
+	text-decoration: none
 }
